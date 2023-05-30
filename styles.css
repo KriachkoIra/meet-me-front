@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat';
+    overflow: hidden;
+    background-color: #E9EBED;
+}
+
+/*---------------------- navbar -----------------------*/
+.navbar{
+    background-color: #27187E;
+    color: white;
+}
+
+.nav-link, .navbar-brand{
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-family: 'Ubuntu';
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: #AEB8FE;
+}
+
+.user-avatar{
+    height: 33px;
+    width: 33px;
+    background-color: #AEB8FE;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.user-avatar:hover{
+    color: #27187E;
+}
+
+/* ----------------- sidebar ------------------------*/
+.sidebar-activities{
+    height: 100%;
+    width: 320px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 50; 
+    left: 0;
+    background-color: #AEB8FE;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+
+  .sidebar-activities form{
+    text-align: center;
+    margin: auto;
+    width: 225px;
+  }
+
+  .sidebar-activities div{
+    margin-bottom: 25px;
+  }
+  
+  .sidebar-activities .fa-solid{
+    color: #27187E;
+    margin-bottom: 5px;
+  }
+
+  .fa-gear{
+    margin: 40px 0 40px 0 !important;
+  }
+
+  .btn-search-activities{
+    border: 2px solid #27187E;
+    color: #27187E;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  /*----------------------- main ------------------- */
+  .main-activities{
+    display: block;
+    margin-left: 320px;
+    padding: 0px 10px;
+    height: 100vh;
+    margin-top: 80px;
+  }
+
+  .activity{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 10px 18px #AEB8FE;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .button-col{
+    margin: auto;
+    font-size: 22px;
+  }
+
+  .btn-heart{
+    text-align: end;
+    color: #FF8600;
+  }
+
+  .btn-heart:hover{
+    color: #E07800;
+  }
+
+  .btn-x{
+    text-align: start;
+    color: #27187E;
+  }
+
+  .btn-x:hover{
+    color: #1B1155;
+  }
+
+  .activity-icons-row{
+    margin-top: 45px;
+    margin-bottom: 40px;
+    padding: 0 20px 0 20px;
+  }
+
+  .activity-icons-row i{
+    color: #FF8600;
+    margin-bottom: 22px;
+  }
+
+  .activity-icons-row p{
+    margin-bottom: 0;
+  }
+
+  .activity-img{
+    width: 300px;
+    height: 215px;
+    background-image: url('https://img.freepik.com/premium-vector/action-football-players-fighting-ball-stadium-field-flat-vector-illustration-concept_142963-722.jpg?w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+
+  .activity-text{
+    text-align: center;
+  }
