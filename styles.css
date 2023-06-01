@@ -1,7 +1,8 @@
-body{
+html, body{
     font-family: 'Montserrat';
     overflow: hidden;
     background-color: #E9EBED;
+    height: 100%;
 }
 
 /*---------------------- navbar -----------------------*/
@@ -295,4 +296,140 @@ body{
     font-weight: 800;
     letter-spacing: -0.8px;
  }
-  
+
+ /*--------------- user page -----------------*/
+
+.sidebar-user{
+    height: 100vh;
+    width: 450px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 50; 
+    left: 0;
+    background-color: #AEB8FE;
+    overflow-x: hidden; 
+    padding: 10px 30px 0 30px;
+}
+
+.user-events{
+  margin-left: 450px;
+  text-align: center;
+  height: inherit;
+  overflow-y: auto;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.user-picture{
+  width: 175px;
+  height: 175px;
+  background-image: url('https://info.renome.ua/wp-content/themes/cera/assets/images/avatars/user-avatar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.user-container{
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.user-name{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.edit-user{
+  margin-right: 25px;
+}
+
+.edit-user:hover, .delete-user:hover{
+  cursor: pointer;
+  color: #27187E;
+}
+
+.user-activity{
+  width: 1000px;
+  height: 320px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 5px 10px 18px #AEB8FE;
+  margin: 50px auto 50px auto;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.user-activity-row{
+  margin-bottom: 15px;
+  padding: 10px 20px 0 10px;
+}
+
+.user-activity-row i{
+  color: #FF8600;
+  margin-bottom: 22px;
+}
+
+.user-activity-row p{
+  margin-bottom: 0;
+}
+
+.user-activity-img{
+  width: 300px;
+  height: 215px;
+  background-image: url('https://img.freepik.com/premium-vector/action-football-players-fighting-ball-stadium-field-flat-vector-illustration-concept_142963-722.jpg?w=1060');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.user-activity-name-row{
+  text-align: left;
+  margin: 0px 5px 15px 5px;
+}
+
+.edit-user-activity{
+  margin-right: 20px;
+}
+
+.user-activity-name{
+  font-weight: 500;
+  color: #27187E;
+}
+
+.user-activity-edit-delete-icons{
+  color: #758BFD;
+  text-align: end;
+  padding-right: 35px;
+}
+
+.edit-user-activity:hover, .delete-user-activity:hover{
+  color: #27187E;
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #758BFD;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #27187E;
+}
